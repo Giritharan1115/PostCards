@@ -3,7 +3,7 @@ import Postcard from './components/Postcard'
 
 const App = () => {
   return (
-    <div style={{backgroundColor: "#5D8736", minHeight: "100vh", padding: "20px"}}>
+    <div style={{backgroundColor: "#809D3C", minHeight: "100vh", padding: "20px"}}>
       <Postcard />
     </div>
   )
