@@ -10,17 +10,17 @@ const PostcardItem = ({ post }) => {
       <div className="card h-100 border-0 shadow-sm d-flex flex-column">
         <div
           className="card-body d-flex flex-column"
-          style={{ backgroundColor: "#5D8736" }}
+          style={{ backgroundColor: "#3E5879" }}
         >
           <h3 style={{ color: "#F4FFC3" }}>User ID: {post.userId}</h3>
-          <h5 className="card-title" style={{ color: "#A9C46C" }}>
+          <h5 className="card-title" style={{ color: "#F5EFE7" }}>
             {post.title}
           </h5>
           <div className="flex-grow-1 overflow-hidden">
             <p
               className="card-text"
               style={{
-                color: "#F4FFC3",
+                color: "#D8C4B6",
                 display: "-webkit-box",
                 WebkitLineClamp: expanded ? "unset" : 3,
                 WebkitBoxOrient: "vertical",
@@ -36,9 +36,9 @@ const PostcardItem = ({ post }) => {
             onClick={() => setExpanded(!expanded)}
           >
             {expanded ? (
-              <CiRead size={20} className="text-light" />
+              <CiRead size={20} style={{ color: "#F4FFC3" }} />
             ) : (
-              <CiUnread size={20} className="text-dark" />
+              <CiUnread size={20} style={{ color: "#D8C4B6" }} />
             )}
           </div>
         </div>

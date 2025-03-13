@@ -14,7 +14,7 @@ const Postcard = () => {
 
   return (
     <div className="container mt-4">
-      <h1 className="mb-4 text-center" style={{ color: "#5D8736" }}>
+      <h1 className="mb-4 text-center" style={{ color: "#F5EFE7" }}>
         Posts
       </h1>
       <div className="row">
